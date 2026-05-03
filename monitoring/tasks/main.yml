@@ -1,1 +1,38 @@
-# Tasks 
+- name: install sysstat and net-tools packets
+  apt: 
+    name: 
+      - sysstat
+      - net-tools
+    state: present
+    update_cache: yes
+
+- name: create log folder
+  file: 
+    path: /var/log/monitoring
+    state: directory
+    mode: "0755"
+
+- name: copy collect.sh
+  copy: 
+    src: collect.sh
+    dest: /usr/local/bin/collect.sh
+    mode: "0755"
+
+- name: copy dashboard.sh
+  copy: 
+      src: dashboard.sh
+      dest: /usr/local/bin/dashboard.sh
+      mode: "0755"
+
+- name: copy alert.sh
+  copy: 
+      src: alert.sh
+      dest: /usr/local/bin/alert.sh
+      mode: "0755"
+
+- name: set cron timer
+  cron: 
+    name: "Collect all data"
+    minute: "*/5"
+    job: "/usr/local/bin/collect.sh"
+  notify: restart cron

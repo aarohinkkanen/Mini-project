@@ -1,1 +1,5 @@
-- name: Installing monitoring system
+- name: installing full monitoring system
+  hosts: localhost
+  become: yes
+  roles: 
+    - monitoring
