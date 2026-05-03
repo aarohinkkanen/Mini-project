@@ -16,6 +16,3 @@ Projektin tavoitteena on tarjota kevyt, automatisoitu ja helposti toistettava pa
 
 # Lataus & Asennus & Käyttöönotto
 -miu
-
-Hello World!
-Hello world t- minde
