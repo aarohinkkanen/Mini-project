@@ -4,10 +4,10 @@ Smart Ansible Server Monitoring
 
 Automaattinen Linux‑palvelimen valvontajärjestelmä, joka asentuu yhdellä komennolla Ansiblella.
 
-Tekijät: Minttu Hillebrandt & Aaro Hinkkanen
-Lisenssi: GNU General Public License v3.0 (GPL‑3.0)
+- **Tekijät:** Minttu Hillebrandt & Aaro Hinkkanen
+- **Lisenssi:** GNU General Public License v3.0 (GPL‑3.0)
 
-kuva
+> kuva
 
 # Projektin tarkoitus
 
