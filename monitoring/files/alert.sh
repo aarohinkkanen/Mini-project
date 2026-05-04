@@ -17,13 +17,13 @@ DISK=$(echo $LATEST | awk -F'DISK: ' '{print $2}' | cut -d'%' -f1)
 # Raja-arvojen tarkistus
 
 if [ "$CPU" -gt "$CPU_LIMIT" ]; then
-	echo " HÄLYTYS: CPU on $CPU% (raja: $CPU_LIMIT%)"
+	echo " WARNING: CPU is $CPU% (limit: $CPU_LIMIT%)"
 fi
 
 if [ "$RAM" -gt "$RAM_LIMIT" ]; then
-        echo " HÄLYTYS: RAM on $RAM% (raja: $RAM_LIMIT%)"
+        echo " WARNING: RAM is $RAM% (limit: $RAM_LIMIT%)"
 fi
 
 if [ "$DISK" -gt "$DISK_LIMIT" ]; then
-        echo " HÄLYTYS: LEVY on $DISK% (raja: $DISK_LIMIT%)"
+        echo " WARNING: DISK is $DISK% (limit: $DISK_LIMIT%)"
 fi
