@@ -33,6 +33,6 @@
 - name: set cron timer
   cron: 
     name: "Collect all data"
-    minute: "*/5"
+    minute: "*/1"
     job: "/usr/local/bin/collect.sh"
   notify: restart cron

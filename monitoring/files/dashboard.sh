@@ -11,7 +11,7 @@ echo "Viimeisin tila:"
 tail -n 1 $LOG
 
 echo "========================="
-echo "|Viimeiset 5 tapahtumaa:|"
+echo "|Latest 5 events:|"
 echo "|=======================|"
 tail -n 5 $LOG
 echo "========================="
