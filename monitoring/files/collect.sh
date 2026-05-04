@@ -4,7 +4,7 @@ LOG="/var/log/monitoring/metrics.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 
 # CPU:n käyttö
-CPU=$(top -bn1 | grep "Cpu(s)" | awk '{print $2}' | cut -d'%' -f1)
+CPU=$(top -bn1 | grep "Cpu(s)" | awk '{print $2}' | cut -d'%' -f1 | tr ',' '.' | cut -d'.' -f)
 
 # RAM:n käyttö
 RAM=$(free | grep Mem | awk '{printf "%.0f", $3/$2 * 100}')
