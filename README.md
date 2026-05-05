@@ -17,8 +17,8 @@ Projektin tavoitteena on tarjota kevyt, automatisoitu ja helposti toistettava pa
 
 # Lataus & Asennus & Käyttöönotto
 
-Kloonaa projekti:
-```
-git clone git@github.com:aarohinkkanen/Mini-project.git
-cd Mini-project
-```
+Lataa projekti:
+
+<img width="1827" height="861" alt="Download_ZIP" src="https://github.com/user-attachments/assets/7c9583c7-c1e1-4acc-b364-7721f675b0a1" />
+
+Kuvan mukaisesti voi ladata projektimme ZIP-tiedoston, jonka voi purkaa Linux-tietokoneella ja ajaa sen paikallisesti.
