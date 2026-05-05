@@ -129,7 +129,11 @@ yes /dev/null &
 ##
 
 ## Yhteenveto
-Projektina loimme automatisoitavan valvonta järjestelmän, joka tarkastaa paikkallisen koneen kuormituksen jokaisen minuutin välein. Projektin toisena tärkeänä sivuosana oli oppia versionhallinnan käyttöä ryhmässä. Gitin käyttö sujui meidän välillä erinomaisesti. Meidän välinen viestintä oli erinomaista ja työnjako meni tasan. 
+Projektina loimme automatisoitavan valvonta järjestelmän, joka tarkastaa paikkallisen koneen kuormituksen jokaisen minuutin välein. Projektin toisena tärkeänä sivuosana oli oppia versionhallinnan käyttöä ryhmässä. Gitin käyttö sujui meidän välillä erinomaisesti. Meidän välinen viestintä oli erinomaista ja työnjako meni tasan. Vaikka komentorivi kuvissa näkyy Aaron virtuaalikone, molemmat meistä antoivat yhtä suurentyöpanoksen projektiin. Olimme jatkuvasti Discordin kautta puhelussa, jossa pohdimme ongelmakohtia yhdessä.
+
+##
+<img width="558" height="216" alt="image" src="https://github.com/user-attachments/assets/2fa14027-6090-4787-9637-fa36a7c14b21" />
+
 
 ##
 
