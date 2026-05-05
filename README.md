@@ -55,3 +55,16 @@ Tarkista varoitus:
 # Jatkokehitysideoita
 - Sähköposti‑ tai Telegram‑hälytykset
 - Graafinen dashboard 
+
+
+
+# Kuvia mintulle
+<img width="1568" height="327" alt="image" src="https://github.com/user-attachments/assets/fe35fd5a-128c-4bbb-8a1c-0b17fc012e56" />
+<img width="1041" height="150" alt="image" src="https://github.com/user-attachments/assets/ac2b5d78-a82b-4b21-903f-c12ca6113d9d" />
+<img width="1568" height="364" alt="image" src="https://github.com/user-attachments/assets/9293ffcc-8e54-4cac-865a-4fbcb71cfbf5" />
+<img width="1208" height="115" alt="image" src="https://github.com/user-attachments/assets/9ce8d406-e7d1-43bd-8aaf-a3cd849285c5" />
+<img width="1568" height="280" alt="image" src="https://github.com/user-attachments/assets/b5e2ebdd-acf0-40d1-b1ed-eee6b296f70e" />
+
+
+
+
