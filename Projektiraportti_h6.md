@@ -54,6 +54,24 @@ alert.sh
 ````
 <img width="1894" height="1046" alt="image" src="https://github.com/user-attachments/assets/7248c6a0-5664-4461-9ec8-942fc9e1426e" />
 
+### tasks kansion sisältö
+````
+main.yml
+````
+<img width="786" height="1149" alt="image" src="https://github.com/user-attachments/assets/e4a83f96-ed6d-45d9-b306-230b13d2f254" />
+
+### handlers kansion sisältö
+````
+main.yml
+````
+<img width="399" height="140" alt="image" src="https://github.com/user-attachments/assets/700a556f-2e80-4ff0-a99a-e18c827afa21" />
+
+
+
+
+
+
+
 
 ## Lähteet: 
 
