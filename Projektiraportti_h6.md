@@ -100,9 +100,9 @@ Kun playbook ajo onnistuu testasimme terminaalissa avata skriptin kirjoittamalla
 
 ##
 
-````
-dashboard.sh ei tuottanut sellaista tulosta kuin olisimme halunneet (kuva alhaalla). Aloimme selvittämään mistä virhe johtuu ja huomasimme virheen olevan skirpti tiedostossa, josta puuttui päättävä lainausmerkki ("). 
-````
+
+> dashboard.sh ei tuottanut sellaista tulosta kuin olisimme halunneet (kuva alhaalla). Aloimme selvittämään mistä virhe johtuu ja huomasimme virheen olevan skirpti tiedostossa, josta puuttui päättävä lainausmerkki ("). 
+
 <img width="1041" height="150" alt="Terminaalista kuva kun /usr/local/bin/dashboard.sh ei tulostanut mitään, koska koodista oli unohtunut yksi merkki." src="https://github.com/user-attachments/assets/ac2b5d78-a82b-4b21-903f-c12ca6113d9d" />
 
 ##
