@@ -106,6 +106,23 @@ Kun playbook ajo onnistuu testasimme terminaalissa avata skriptin kirjoittamalla
 <img width="1041" height="150" alt="Terminaalista kuva kun /usr/local/bin/dashboard.sh ei tulostanut mitään, koska koodista oli unohtunut yksi merkki." src="https://github.com/user-attachments/assets/ac2b5d78-a82b-4b21-903f-c12ca6113d9d" />
 
 ##
+````
+Ajoimme komentorivillä uudestaan /usr/local/bin/dashboard.sh ja tulos oli sellainen, mitä halusimmekin.
+````
+<img width="1004" height="507" alt="image" src="https://github.com/user-attachments/assets/8cdf0214-45f4-4d35-9b56-21d53dd8791d" />
+
+## Koneen prosessorin rasittaminen varoitusta varten alla olevalla komennolla
+````
+yes /dev/null &
+````
+<img width="1004" height="153" alt="image" src="https://github.com/user-attachments/assets/5df9ca8c-ad3f-4ea5-b95e-351044914bdb" />
+
+##
+
+> Komento lisäsi prosessorin kuormitusta merkittävästi ja alert.sh suorittaminen osoitti, että varoitus toimi kun se ylitti raja-arvon.
+<img width="1004" height="574" alt="image" src="https://github.com/user-attachments/assets/3c21fa86-7e26-4bdb-8062-689a7051b5d2" />
+
+
 
 
 
