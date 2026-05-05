@@ -8,7 +8,7 @@ Projektin tarkoitus on luoda automatisoitu järjestelmän tilanvalvonta ohjelma,
 
 ## Kokonaisuuden hahmotelma
 Alla näkyvässä kuvassa on hakemistopuu rakenne, joka kuvaa projetkin sisällön.
-<img width="1004" height="671" alt="image" src="https://github.com/user-attachments/assets/1a991763-455f-441e-a9d1-b023b8857498" />
+<img width="1004" height="671" alt="Hakemistopuu terminaalissa." src="https://github.com/user-attachments/assets/1a991763-455f-441e-a9d1-b023b8857498" />
 
 ## Ohjeistus
 Luodaan hakemisto rakenne "monitoring" Mini-project nimisen kansion sisään
@@ -44,57 +44,59 @@ micro site.yml
 ````
 collect.sh
 ````
-<img width="1747" height="614" alt="image" src="https://github.com/user-attachments/assets/e307375d-6d45-4a0c-af1c-a5d3fccad25d" />
+<img width="1747" height="614" alt="collect.sh koodi." src="https://github.com/user-attachments/assets/e307375d-6d45-4a0c-af1c-a5d3fccad25d" />
 
 ##
 ````
 dashboard.sh
 ````
-<img width="1239" height="662" alt="image" src="https://github.com/user-attachments/assets/b21bce8f-7320-40a5-a36a-4e63a8d1f1c1" />
+<img width="1239" height="662" alt="dashboard.sh koodi." src="https://github.com/user-attachments/assets/b21bce8f-7320-40a5-a36a-4e63a8d1f1c1" />
 
 ##
 ````
 alert.sh
 ````
-<img width="1894" height="1046" alt="image" src="https://github.com/user-attachments/assets/7248c6a0-5664-4461-9ec8-942fc9e1426e" />
+<img width="1894" height="1046" alt="alert.sh koodi." src="https://github.com/user-attachments/assets/7248c6a0-5664-4461-9ec8-942fc9e1426e" />
 
 ### tasks kansion sisältö
 ````
 main.yml
 ````
-<img width="786" height="1149" alt="image" src="https://github.com/user-attachments/assets/e4a83f96-ed6d-45d9-b306-230b13d2f254" />
+<img width="786" height="1149" alt="tasks kansion sisältö
+main.yml koodi." src="https://github.com/user-attachments/assets/e4a83f96-ed6d-45d9-b306-230b13d2f254" />
 
 ### handlers kansion sisältö
 ````
 main.yml
 ````
-<img width="399" height="140" alt="image" src="https://github.com/user-attachments/assets/700a556f-2e80-4ff0-a99a-e18c827afa21" />
+<img width="399" height="140" alt="handlers kansion sisältö
+main.yml koodi." src="https://github.com/user-attachments/assets/700a556f-2e80-4ff0-a99a-e18c827afa21" />
 
 ##
 ### Mini-project kansiossa olevien tiedostojen sisällöt
 ````
 inventory
 ````
-<img width="603" height="50" alt="image" src="https://github.com/user-attachments/assets/d20e7035-b725-4b0a-a9e5-e824aa120d9c" />
+<img width="603" height="50" alt="inventory tiedosto koodi." src="https://github.com/user-attachments/assets/d20e7035-b725-4b0a-a9e5-e824aa120d9c" />
 
 ##
 ````
 site.yml
 ````
-<img width="722" height="205" alt="image" src="https://github.com/user-attachments/assets/6ef4e4a1-af53-44df-955b-7fa8cf85a1ac" />
+<img width="722" height="205" alt="site.yml tiedosto koodi." src="https://github.com/user-attachments/assets/6ef4e4a1-af53-44df-955b-7fa8cf85a1ac" />
 
 
 ## Testit ja playbook ajot
 ````
 Playbook ajo saatiin onnitumaan ja muutokset näkyvät kohdassa "changed"
 ````
-<img width="1004" height="683" alt="image" src="https://github.com/user-attachments/assets/78c6e41e-c49e-4335-bef0-d0485cee09ad" />
+<img width="1004" height="683" alt="Terminaalin playbookajo." src="https://github.com/user-attachments/assets/78c6e41e-c49e-4335-bef0-d0485cee09ad" />
 
 ##
 ````
 Playbook ajettiin vielä kerran, jotta saatiin idempotentti aikaiseksi
 ````
-<img width="1004" height="604" alt="image" src="https://github.com/user-attachments/assets/39b5a5bc-97a6-411d-ac1e-fb7e41670a52" />
+<img width="1004" height="604" alt="Terminaalin playbookajo, idempotentti tila." src="https://github.com/user-attachments/assets/39b5a5bc-97a6-411d-ac1e-fb7e41670a52" />
 
 ##
 ````
@@ -113,26 +115,26 @@ Kun playbook ajo onnistuu testasimme terminaalissa avata skriptin kirjoittamalla
 ````
 Ajoimme komentorivillä uudestaan /usr/local/bin/dashboard.sh ja tulos oli sellainen, mitä halusimmekin.
 ````
-<img width="1004" height="507" alt="image" src="https://github.com/user-attachments/assets/8cdf0214-45f4-4d35-9b56-21d53dd8791d" />
+<img width="1004" height="507" alt="Terminaalissa SYSTEM MONITORING laatikko." src="https://github.com/user-attachments/assets/8cdf0214-45f4-4d35-9b56-21d53dd8791d" />
 
 ## Koneen prosessorin rasittaminen varoitusta varten alla olevalla komennolla
 ````
 yes /dev/null &
 ````
-<img width="1004" height="153" alt="image" src="https://github.com/user-attachments/assets/5df9ca8c-ad3f-4ea5-b95e-351044914bdb" />
+<img width="1004" height="153" alt="yes /dev/null & komennolla rasitusta." src="https://github.com/user-attachments/assets/5df9ca8c-ad3f-4ea5-b95e-351044914bdb" />
 
 ##
 
 > Komento lisäsi prosessorin kuormitusta merkittävästi ja alert.sh suorittaminen osoitti, että varoitus toimi kun se ylitti raja-arvon.
-<img width="1004" height="574" alt="image" src="https://github.com/user-attachments/assets/3c21fa86-7e26-4bdb-8062-689a7051b5d2" />
+<img width="1004" height="574" alt="Rasituksen vaikutukset sekä varoitus." src="https://github.com/user-attachments/assets/3c21fa86-7e26-4bdb-8062-689a7051b5d2" />
 
 ##
 
 ## Yhteenveto
-Projektina loimme automatisoitavan valvonta järjestelmän, joka tarkastaa paikkallisen koneen kuormituksen jokaisen minuutin välein. Projektin toisena tärkeänä sivuosana oli oppia versionhallinnan käyttöä ryhmässä. Gitin käyttö sujui meidän välillä erinomaisesti. Meidän välinen viestintä oli erinomaista ja työnjako meni tasan. Vaikka komentorivi kuvissa näkyy Aaron virtuaalikone, molemmat meistä antoivat yhtä suurentyöpanoksen projektiin. Olimme jatkuvasti Discordin kautta puhelussa, jossa pohdimme ongelmakohtia yhdessä.
+Projektina loimme automatisoitavan valvonta järjestelmän, joka tarkastaa paikkallisen koneen kuormituksen jokaisen minuutin välein. Projektin toisena tärkeänä sivuosana oli oppia versionhallinnan käyttöä ryhmässä. Gitin käyttö sujui meidän välillä erinomaisesti. Meidän välinen viestintä oli erinomaista ja työnjako meni tasan. Vaikka komentorivi kuvissa näkyy Aaron virtuaalikone, molemmat meistä antoivat yhtä suuren työpanoksen projektiin. Olimme jatkuvasti Discordin kautta puhelussa, jossa pohdimme ongelmakohtia yhdessä.
 
 ##
-<img width="558" height="216" alt="image" src="https://github.com/user-attachments/assets/2fa14027-6090-4787-9637-fa36a7c14b21" />
+<img width="558" height="216" alt="Discord-puhelusta kuva." src="https://github.com/user-attachments/assets/2fa14027-6090-4787-9637-fa36a7c14b21" />
 
 
 ##
