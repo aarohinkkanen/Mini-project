@@ -122,16 +122,15 @@ yes /dev/null &
 > Komento lisäsi prosessorin kuormitusta merkittävästi ja alert.sh suorittaminen osoitti, että varoitus toimi kun se ylitti raja-arvon.
 <img width="1004" height="574" alt="image" src="https://github.com/user-attachments/assets/3c21fa86-7e26-4bdb-8062-689a7051b5d2" />
 
-
-
-
-
+##
 
 ## Yhteenveto
 Selväksi työnjako
+Nämä todensi, että playbookin tuottamat toiminnot toimivat ja saimme kaikki virheet korjattua.
 
 ## Lähteet: 
 
 - https://terokarvinen.com/palvelinten-hallinta/#h6-miniprojekti 
 - https://www.linuxoperatingsystem.net/yes-command-line-in-linux-a-comprehensive-guide/
 - https://dohost.us/index.php/2025/08/15/automating-tasks-on-debian-with-cron-and-systemd-timers/#:~:text=This%20guide%20provides%20a%20comprehensive%2C%20step-by-step%20tutorial%20on,and%20systemd%20timers%20for%20task%20automation%20on%20Debian.
+- https://phoenixnap.com/kb/linux-date-command
