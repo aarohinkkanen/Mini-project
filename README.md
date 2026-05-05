@@ -7,7 +7,9 @@ Automaattinen Linux‑palvelimen valvontajärjestelmä, joka asentuu yhdellä ko
 - **Tekijät:** Minttu Hillebrandt & Aaro Hinkkanen
 - **Lisenssi:** GNU General Public License v3.0 
 
-> kuva
+
+<img width="1004" height="574" alt="Projektin kuva." src="https://github.com/user-attachments/assets/2764dd0c-ec06-4201-99eb-409ce8a6c1c0" />
+
 
 # Projektin tarkoitus
 
