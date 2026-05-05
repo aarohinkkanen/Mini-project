@@ -27,3 +27,31 @@ Kuvan mukaisesti voi ladata projektimme ZIP-tiedoston, jonka voi purkaa Linux-ti
 ````
 Itse playbook ajetaan komentorivillä ~/Mini-project --> ansible-playbook -i inventory site.yml -K
 ````
+
+# Projektin rakenne
+
+<img width="1004" height="671" alt="image" src="https://github.com/user-attachments/assets/26ce7bca-2916-4902-b25d-653bf59f0575" />
+
+
+# Simuloi korkea CPU‑kuorma:
+````
+yes > /dev/null &
+````
+Tarkista loki:
+````
+- test
+````
+
+Tarkista varoitus:
+````
+- test
+````
+
+# Käytetyt teknologiat
+- Ansible
+- Bash‑skriptit (alert.sh, collect.sh, dashboard.sh)
+- Cron
+
+# Jatkokehitysideoita
+- Sähköposti‑ tai Telegram‑hälytykset
+- Graafinen dashboard 
