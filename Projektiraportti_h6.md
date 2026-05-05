@@ -1,5 +1,9 @@
 # h6
 
+## Tekijät Aaro Hinkkanen ja Minttu Hillebrandt
+
+##
+
 Projektin tarkoitus on luoda automatisoitu järjestelmän tilanvalvonta ohjelma, joka tarkastaa paikallisen tietokoneen eri osien kuormitusta. Automatisointi tehdään Ansiblen avulla. Lopputuloksena paikalliselle tietokoneelle on asentunut paketteja ja skriptejä joiden avulla pystytään komentoriviltä tarkastamaan jatkuvasti koneen kuormitus tasoja.
 
 ## Kokonaisuuden hahmotelma
@@ -125,8 +129,11 @@ yes /dev/null &
 ##
 
 ## Yhteenveto
-Selväksi työnjako
-Nämä todensi, että playbookin tuottamat toiminnot toimivat ja saimme kaikki virheet korjattua.
+Projektina loimme automatisoitavan valvonta järjestelmän, joka tarkastaa paikkallisen koneen kuormituksen jokaisen minuutin välein. Projektin toisena tärkeänä sivuosana oli oppia versionhallinnan käyttöä ryhmässä. Gitin käyttö sujui meidän välillä erinomaisesti. Meidän välinen viestintä oli erinomaista ja työnjako meni tasan. 
+
+##
+
+## Linkki YouTube Demo-videoon: https://www.youtube.com/watch?v=4JByZLupOuM
 
 ## Lähteet: 
 
