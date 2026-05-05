@@ -22,3 +22,7 @@ Lataa projekti:
 <img width="1827" height="861" alt="Download_ZIP" src="https://github.com/user-attachments/assets/7c9583c7-c1e1-4acc-b364-7721f675b0a1" />
 
 Kuvan mukaisesti voi ladata projektimme ZIP-tiedoston, jonka voi purkaa Linux-tietokoneella ja ajaa sen paikallisesti.
+
+````
+Itse playbook ajetaan komentorivillä ~/Mini-project --> ansible-playbook -i inventory site.yml -K
+````
