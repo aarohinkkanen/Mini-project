@@ -70,8 +70,8 @@ main.yml
 
 
 
-
-
+## Yhteenveto
+Selväksi työnjako
 
 ## Lähteet: 
 
