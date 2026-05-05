@@ -18,6 +18,10 @@ cd ~/code/Mini-project/monitoring/files/
 micro collect.sh
 micro dashboard.sh
 micro alert.sh
+cd ~/code/Mini-project/monitoring/handlers/
+micro main.yml
+cd ~/code/Mini-project/monitoring/tasks/
+micro main.yml
 ````
 
 Luodaan Mini-project nimiseen kansioon tiedosto nimeltä inventory
@@ -29,6 +33,22 @@ Luodaan Mini-project nimiseen kansioon site.yml
 ````
 micro site.yml
 ````
+
+## Tiedostojen sisällöt
+### files kansion sisältämät skripti tiedostojen sisällöt
+````
+collect.sh
+````
+<img width="1747" height="614" alt="image" src="https://github.com/user-attachments/assets/e307375d-6d45-4a0c-af1c-a5d3fccad25d" />
+
+````
+dashboard.sh
+````
+<img width="1239" height="662" alt="image" src="https://github.com/user-attachments/assets/b21bce8f-7320-40a5-a36a-4e63a8d1f1c1" />
+
+
+
+
 
 ## Lähteet: 
 
