@@ -66,6 +66,7 @@ main.yml
 ````
 <img width="399" height="140" alt="image" src="https://github.com/user-attachments/assets/700a556f-2e80-4ff0-a99a-e18c827afa21" />
 
+##
 ### Mini-project kansiossa olevien tiedostojen sisällöt
 ````
 inventory
@@ -77,6 +78,25 @@ inventory
 site.yml
 ````
 <img width="722" height="205" alt="image" src="https://github.com/user-attachments/assets/6ef4e4a1-af53-44df-955b-7fa8cf85a1ac" />
+
+
+## Testit ja playbook ajot
+````
+Playbook ajo saatiin onnitumaan ja muutokset näkyvät kohdassa "changed"
+````
+<img width="1004" height="683" alt="image" src="https://github.com/user-attachments/assets/78c6e41e-c49e-4335-bef0-d0485cee09ad" />
+
+##
+````
+Playbook ajettiin vielä kerran, jotta saatiin idempotentti aikaiseksi
+````
+<img width="1004" height="604" alt="image" src="https://github.com/user-attachments/assets/39b5a5bc-97a6-411d-ac1e-fb7e41670a52" />
+
+
+
+
+
+
 
 
 
