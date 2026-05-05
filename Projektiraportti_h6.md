@@ -92,10 +92,16 @@ Playbook ajettiin vielä kerran, jotta saatiin idempotentti aikaiseksi
 ````
 <img width="1004" height="604" alt="image" src="https://github.com/user-attachments/assets/39b5a5bc-97a6-411d-ac1e-fb7e41670a52" />
 
-
-
-
-
+##
+````
+Kun playbook ajo onnistuu testasimme terminaalissa avata skriptin kirjoittamalla komentoriville /usr/local/bin/dashboard.sh
+````
+<img width="1568" height="327" alt="Terminaalista kuva kun /usr/local/bin/dashboard.sh komentoa ei löytynyt." src="https://github.com/user-attachments/assets/fe35fd5a-128c-4bbb-8a1c-0b17fc012e56" />
+##
+````
+dashboard.sh ei tuottanut sellaista tulosta kuin olisimme halunneet (kuva alhaalla). Aloimme selvittämään mistä virhe johtuu ja huomasimme virheen olevan skirpti tiedostossa, josta puuttui päättävä lainausmerkki ("). 
+````
+<img width="1041" height="150" alt="Terminaalista kuva kun /usr/local/bin/dashboard.sh ei tulostanut mitään, koska koodista oli unohtunut yksi merkki." src="https://github.com/user-attachments/assets/ac2b5d78-a82b-4b21-903f-c12ca6113d9d" />
 
 
 
