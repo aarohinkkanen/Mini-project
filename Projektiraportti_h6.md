@@ -66,7 +66,17 @@ main.yml
 ````
 <img width="399" height="140" alt="image" src="https://github.com/user-attachments/assets/700a556f-2e80-4ff0-a99a-e18c827afa21" />
 
+### Mini-project kansiossa olevien tiedostojen sisällöt
+````
+inventory
+````
+<img width="603" height="50" alt="image" src="https://github.com/user-attachments/assets/d20e7035-b725-4b0a-a9e5-e824aa120d9c" />
 
+##
+````
+site.yml
+````
+<img width="722" height="205" alt="image" src="https://github.com/user-attachments/assets/6ef4e4a1-af53-44df-955b-7fa8cf85a1ac" />
 
 
 
